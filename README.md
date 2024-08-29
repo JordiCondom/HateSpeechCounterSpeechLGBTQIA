@@ -1,1 +1,1 @@
-# HateSpeechCounterSpeechLGBTQIA-
+# HateSpeechCounterSpeechLGBTQIA+
