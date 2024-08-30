@@ -18,5 +18,12 @@ Due to restrictions on sharing TikTok data, this repository does not include the
   - `LabeledHateTrainingDataset.csv` (HS)
   - `LabeledDialoguesForCounterTraining.csv` (CS)
 
-- **Original Labeled Data**: Contains the labeled datasets from the literature used by `LabeledDataLoading.ipynb`to create the files in the folder `Joined Labeled Data`.
+- **Original Labeled Data**: Contains the labeled datasets from the literature used by `LabeledDataLoading.ipynb` to create the files in the folder `Joined Labeled Data`. All links and references to these datasets can be found both in the thesis and the `LabeledDataLoading.ipynb` file:
+  - SBIC.v2 folder contains the files of the Social Bias Frames data.
+  - DIALOCONAN.csv: DIALOCONAN dataset.
+  - Ethos_Dataset_Multi_Label.csv: Ethos dataset.
+  - Multitarget-CONAN.csv: Multitarget CONAN dataset.
+  - queerPhobia.csv: QueerPhobia dataset.
+  - test_suite_cases.csv: HateCheck datest.
+  - train.tsv: FRENK dataset.
   
