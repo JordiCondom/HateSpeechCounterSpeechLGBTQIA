@@ -14,7 +14,7 @@ Due to restrictions on sharing TikTok data, this repository does not include the
 
 - **`LabeledDataLoading.ipynb`**: Integrates labeled datasets from the literature to create `LabeledHateTrainingDataset.csv` (HS) and `LabeledDialoguesForCounterTraining.csv` (CS).
 
-- **Joined Labeled Data**: Includes the following files with raw data (no pre-processing step has been applied yet):
+- **Joined Labeled Data**: Includes the following files with raw data (no pre-processing step has been applied yet). These files are originated from bringing together the different datasets of the folder `Original Labeled Data`:
   - `LabeledHateTrainingDataset.csv` (HS)
   - `LabeledDialoguesForCounterTraining.csv` (CS)
 
@@ -26,4 +26,5 @@ Due to restrictions on sharing TikTok data, this repository does not include the
   - queerPhobia.csv: QueerPhobia dataset.
   - test_suite_cases.csv: HateCheck datest.
   - train.tsv: FRENK dataset.
+  - dataset.json: HateXplain dataset.
   
