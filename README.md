@@ -14,7 +14,7 @@ Due to restrictions on sharing TikTok data, this repository does not include the
 
 - **`LabeledDataLoading.ipynb`**: Integrates labeled datasets from the literature to create `LabeledHateTrainingDataset.csv` (HS) and `LabeledDialoguesForCounterTraining.csv` (CS).
 
-- **Labeled Data folder**: Includes the following files:
+- **Labeled Data folder**: Includes the following files with raw data (no pre-processing step has been applied yet):
   - `LabeledHateTrainingDataset.csv` (HS)
   - `LabeledDialoguesForCounterTraining.csv` (CS)
   
