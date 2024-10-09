@@ -1,6 +1,6 @@
 # From Toxicity to Dialogue: Hate Speech and Counter-Speech in Social Media Environments
 
-Due to restrictions on sharing TikTok data, this repository does not include the exact implementation used in the thesis. Instead, it provides the schema and guidelines for the techniques and processes discussed in the thesis, along with access to the labeled data. The repository features schematic implementations of key components, including training procedures for hate speech (HS) and counter speech (CS) predictors, a basic implementation of BERTopic, and video clustering using X-CLIP embeddings. Although the TikTok data itself cannot be shared, the code allows for integration with labeled datasets from the literature.
+Due to restrictions on sharing TikTok data, the exact implementation used in the thesis is not included. Instead, we provide schematic implementations of key components—such as training procedures for hate speech (HS) and counter speech (CS) predictors, a basic implementation of BERTopic, and video clustering using X-CLIP embeddings—alongside guidelines for replicating the techniques and processes discussed. While user handles and video IDs were retained for quality control, we took care not to deanonymize users or access personal information beyond what was publicly available. Given the challenges of full anonymization and the potential for misuse of sensitive data, particularly regarding the LGBTQIA+ community, we opted not to make the full dataset publicly available. However, in the interest of methodological transparency, we will release the code and a sample dataset, enabling integration with labeled datasets from the literature while prioritizing individual safety and data integrity.
 
 ## Repository Contents
 
@@ -13,6 +13,8 @@ Due to restrictions on sharing TikTok data, this repository does not include the
 - **`HSandCSPredictionModels.ipynb`**: Contains code for training both hate speech and counter-speech prediction models.
 
 - **`LabeledDataLoading.ipynb`**: Integrates labeled datasets from the literature to create `LabeledHateTrainingDataset.csv` (HS) and `LabeledDialoguesForCounterTraining.csv` (CS).
+  
+- **`HS&CSPrediction+TopicModeling.ipynb`**: With small sample datasets, replicates the data pipeline from predicting HS and CS, to performing topic modeling on the hate messages.
 
 - **Joined Labeled Data**: Includes the following files with raw data (no pre-processing step has been applied yet). These files are originated from bringing together the different datasets of the folder `Original Labeled Data`:
   - `LabeledHateTrainingDataset.csv` (HS)
